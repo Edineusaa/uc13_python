@@ -1,0 +1,61 @@
+Criar Repositório no git
+name: UC13_web_develop
+	depois
+terminal CMD na pasta criada
+UC13
+> git config --list
+
+> git config --global user.name
+ 	seta pra cima
+> git config --global user.name "Edineusa"
+
+> git config --global user.name
+Edineusa
+
+> git config --global user.email "mesmo email usado no GitHub"
+
+subir o repositório
+
+> git init
+mostrar pastas ocultas
+
+> git remote add origin //pegar o link da pasta no GitHub HTTPS
+
+> git branch
+
+> git branch -M main
+
+> git branch
+
+> git branch -a
+
+ESTA CONFIGURADO
+
+Processo de atualização, definindo o que vai para a nova versão, utilizando o
+
+> git status (saber o que tem dentro da pasta do git)
+
+> git add . (vai rastrear todos arquivos é como se fosse o ls -la VAI LISTAR)
+
+titulo de conhecimento, ele não monitora tudo que é escrito, rastreia alguns códigos que definam o arquivo
+
+adicionar o comentário commit
+> git -m "primeiro commit"
+
+> git push (vai aparecer uma origin, copia e cola)
+
+CONTINUA
+> git status
+
+> git add .
+
+> git commit "Segundo commit"
+
+Padrões de commit (pesquisar)
+CI - arquivo de configuração
+FEAT - implementando algo novo
+STYLE - estilo novo
+
+//curiosidade
+SSH configurar uma chave
+SSH and GPG Key
